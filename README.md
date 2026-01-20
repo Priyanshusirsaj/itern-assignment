@@ -155,4 +155,25 @@ Use **Tailwind CSS** and **shadcn/ui** for styling. You are expected to install,
 If you have any additional doubts, feel free to reach out at: `developer@camonk.com`.
 
 
+
+**Get All Blogs**
+Fetches all blogs from GET /blogs
+Uses TanStack Query (useBlogs hook)
+Handles loading and error states
+Displays blogs in a left sidebar list
+
+
+**Create New Blog**
+Title
+Description
+Content
+Uses POST /blogs
+Implemented using TanStack Query mutation (useCreateBlog hook)
+Automatically refreshes blog list after creation
+Basic validation (all fields required)
+
+**Clone the Reposetory**
+git clone https://github.com/Priyanshusirsaj/itern-assignment.git
+
+**Create Blog Page**
 Good luck! 🚀
